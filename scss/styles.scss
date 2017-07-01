@@ -60,6 +60,7 @@ $padding: 100px;
 
   .block_family{
     max-width:500px;
+
   }
 
   .block_family li{
@@ -78,10 +79,19 @@ $padding: 100px;
 
   .block_family{
     max-width:800px;
+
   }
 
   .block_family li {
     @include block_font(35px, $dark, $light);
+     display: inline-block;
+     width: 150px;
+     height: 40px;
+     margin: 20px;
+  }
+
+  .block_family li:nth-child( 2n + 2  ){
+    background-color: $bright;
   }
 
 }
