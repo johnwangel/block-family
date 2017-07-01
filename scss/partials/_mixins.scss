@@ -1,0 +1,5 @@
+@mixin block_font($block_font_size, $block_font_color, $background_color){
+  font-size: $block_font_size;
+  color: $block_font_color;
+  background-color: $background_color;
+}
